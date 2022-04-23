@@ -1,5 +1,5 @@
-const item = document.querySelector('.item')
 const placeholders = document.querySelectorAll('.placeholder')
+const item = document.querySelector('.item')
 
 item.addEventListener('dragstart', dragstart)
 item.addEventListener('dragend', dragend)

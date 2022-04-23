@@ -7,44 +7,44 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
-  display: flex;
-  padding-top: 5rem;
   justify-content: center;
+  padding-top: 5rem;
   overflow: hidden;
+  display: flex;
   margin: 0;
 }
 
 .row {
-  display: flex;
-  width: 600px;
   justify-content: space-between;
   margin-bottom: 1rem;
+  display: flex;
+  width: 600px;
 }
 
 .col-header {
-  width: 150px;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
-  border-radius: 20px;
   padding: 0.8rem 1rem;
-  color: #fff;
-  text-align: center;
-  font-weight: bolder;
   letter-spacing: 3px;
+  border-radius: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  width: 150px;
 }
 
 .item {
-  width: 150px;
-  height: 66px;
-  border: 1px solid #eee;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
-  border-radius: 20px;
+  border: 1px solid #eee;
+  vertical-align: middle;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
-  color: #828282;
-  text-align: center;
-  cursor: grab;
+  border-radius: 20px;
   display: table-cell;
-  vertical-align: middle;
+  text-align: center;
+  color: #828282;
+  cursor: grab;
+  width: 150px;
+  height: 66px;
 }
 
 .item:active {
